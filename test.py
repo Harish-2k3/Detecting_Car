@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from ultralytics import YOLO
 
-ModelPath = r"C:\Users\IBE\OneDrive\Desktop\Harish\YOLO-V8\best.pt"
+ModelPath = os.path.join(os.path.dirname(__file__), "best.pt")
 model = YOLO(ModelPath)
 
 st.title("Car Detection")
