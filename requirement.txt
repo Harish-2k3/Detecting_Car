@@ -1,4 +1,0 @@
-streamlit
-ultralytics==8.2.99
-pillow
-numpy
